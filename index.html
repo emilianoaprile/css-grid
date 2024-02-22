@@ -1,31 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title>Css - Grids</title>
 </head>
-<body>
+
+<body class="debug">
     <!-- header -->
-    <header>
-        <nav>
-            Navbar
-        </nav>
+    <header class="page_header">
+        <div class="container">
+            <nav class="page_header-nav d-flex">
+                <ul class="nav_menu d-flex">
+                    <li class="nav_menu-items">
+                        <a href="#"><img class="page_header-logo" src="img/boolean-logo.png"></a>
+                    </li>
+                </ul>
+
+                <ul class="nav_menu d-flex">
+                    <li class="nav_menu-items">Home</li>
+                    <li class="nav_menu-items">About</li>
+                    <li class="nav_menu-items">Contacts</li>
+                    <li class="nav_menu-items">FAQs</li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!-- main content -->
-    <main>
-        <div class="container">
-            Main Content
-        </div>
+    <main class="page_content">
+        <section class="cards_section">
+            <div class="container d-grid">
+                <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card">3</div>
+                <div class="card">4</div>
+                <div class="card">5</div>
+                <div class="card">6</div>
+                <div class="card">7</div>
+                <div class="card">8</div>
+                <div class="card">9</div>
+                <div class="card">10</div>
+                <div class="card">11</div>
+                <div class="card">12</div>
+            </div>
+        </section>
+
     </main>
 
     <!-- footer -->
-    <footer>
-        <nav>
-            Footer Navbar
-        </nav>
+    <footer class="page_footer">
+        <div class="container">
+            <nav class="page_footer-nav d-flex">
+                <div class="page_footer-left">
+                    nome azienda
+                </div>
+                <div class="page_footer-right">
+                    contatti social
+                </div>
+            </nav>
+        </div>
     </footer>
-    
+
 </body>
+
 </html>
