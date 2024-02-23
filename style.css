@@ -251,6 +251,7 @@ figure>.image_ticker-solo {
     .hamburger_icon {
         display: block;
         font-size: 25px;
+        color: white;
     }
 
     .menu_toggle {
@@ -273,10 +274,8 @@ figure>.image_ticker-solo {
     /* toggle menu */
 
     .nav_menu-drop {
-        background-color: black;
         border-radius: 10px;
         margin-top: 20px;
-        /* height: 300px; */
         overflow: hidden;
         display: none;
     }
