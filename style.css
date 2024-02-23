@@ -76,11 +76,16 @@ img {
 /* header */
 .page_header {
     background-color: #FE6901;
-    padding: 30px;
+    padding: 30px 20px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 99;
+}
+
+.menu_toggle,
+.nav_menu-drop {
+    display: none;
 }
 
 .page_header-logo {
@@ -228,9 +233,13 @@ figure>.image_ticker-solo {
         display: none;
     }
 
-    .hamburger_menu {
+    .hamburger_icon {
         display: block;
         font-size: 25px;
+    }
+
+    .menu_toggle {
+        display: block;
     }
 
     .page_footer-nav {
@@ -245,5 +254,26 @@ figure>.image_ticker-solo {
     .page_footer-right {
         flex-basis: 100%;
     }
+
+    /* toggle menu */
+
+    .nav_menu-drop {
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 20px;
+        /* height: 300px; */
+        overflow: hidden;
+        display: none;
+    }
+
+    .menu_drop-list {
+        justify-content: center;
+        gap: 40px;
+        padding: 30px 0;
+    }
+
+    
+
+
 
 }
